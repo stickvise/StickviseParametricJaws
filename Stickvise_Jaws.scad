@@ -13,12 +13,12 @@
     counterbore_bore_depth = jaw_height - 3.4;
 
   // set to true to add rectangular step to one side
-    add_jaw_step = false;
+    add_jaw_step = true;
     jaw_step_height = in_to_mm(.1);
     jaw_step_depth = in_to_mm(.03);
 
   // set to true to add a HORIZONTAL v-groove to one side
-    add_v_groove = false; 
+    add_v_groove = true; 
     v_groove_height = in_to_mm(.1);
     v_groove_top_offset = in_to_mm(.025);
 
